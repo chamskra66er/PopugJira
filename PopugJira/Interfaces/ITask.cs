@@ -9,5 +9,6 @@ namespace PopugJira.Interfaces
         Task AddTask(Tasks task);
         Task RemoveTask(Tasks task);
         IEnumerable<Tasks> TakList();
+        Tasks GetById(int id);
     }
 }
